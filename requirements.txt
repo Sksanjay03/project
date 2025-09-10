@@ -1,0 +1,4 @@
+pdfplumber
+fastapi
+uvicorn
+career_assistant
