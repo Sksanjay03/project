@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: career_assistant
+Version: 0.1.0
+Summary: A career assistant Python module
+Home-page: https://github.com/Sksanjay03/project
+Author: Your Name
+Author-email: youremail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pdfplumber
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# project
