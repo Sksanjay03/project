@@ -1,4 +1,7 @@
-career_assistant==0.1.0
-pdfplumber
 fastapi
 uvicorn
+pdfplumber
+pydantic
+scikit-learn
+pandas
+numpy

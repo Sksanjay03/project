@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "career_assistant"
+version = "0.1.0"
+description = "Career Assistant AI"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"   # ✅ SPDX identifier only
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+keywords = ["career", "recommendation", "ai", "assistant"]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "pdfplumber",
+  "pydantic",
+  "scikit-learn",
+  "pandas",
+  "numpy"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

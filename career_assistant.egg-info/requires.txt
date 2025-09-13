@@ -1,3 +1,7 @@
-pdfplumber
 fastapi
 uvicorn
+pdfplumber
+pydantic
+scikit-learn
+pandas
+numpy
